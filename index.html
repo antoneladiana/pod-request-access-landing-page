@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Title -->
+  <link rel="icon" type="image/png" sizes="32x32" 
+        href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Pod Request Access Landing Page</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&display=swap">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <!-- JavaScript -->
+  <script src="./javascript/script.js" defer></script>
+</head>
+<body>
+  <div class="content">
+    <!-- Header -->
+    <header class="header">
+      <!-- Logo -->
+      <svg class="logo" viewBox="0 0 135 56">
+        <use xlink:href="./images/svg-sprite.svg#logo"/>
+      </svg>
+    </header>
+
+    <!-- Main content -->
+    <main class="main">
+      <!-- Introduction -->
+      <div class="intro">
+        <h1 class="intro__title">Publish your podcasts 
+          <strong class="intro__strong">everywhere.</strong>
+        </h1>
+        <p class="intro__description">
+          Upload your audio to pod with a single click. We'll then distribute 
+          your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket 
+          Casts and more!
+        </p>
+      </div>
+
+      <!-- Sign-up form -->
+      <div class="form__wrap">
+        <form class="form">
+          <input class="form__input" type="text" placeholder="Email address">
+        <button class="form__button" type="button">Request access</button>
+        </form>
+        <span class="form__error --empty --hidden">
+          Oops! Please add your email
+        </span>
+        <span class="form__error --wrong --hidden">
+          Oops! Please check your email
+        </span>
+    </div>
+
+      <!-- Podcast apps logos -->
+      <ul class="podcast-apps">
+        <!-- Spotify -->
+        <li class="podcast-apps__item --narrow">
+          <svg class="podcast-apps__logo" viewBox="0 0 96 29">
+            <use xlink:href="./images/svg-sprite.svg#logo-spotify"/>
+          </svg>
+        </li>
+        <!-- Apple Podcasts -->
+        <li class="podcast-apps__item --narrow">
+          <svg class="podcast-apps__logo" viewBox="0 0 78 29">
+            <use xlink:href="./images/svg-sprite.svg#logo-apple-podcasts"/>
+          </svg>
+        </li>
+        <!-- Google podcasts -->
+        <li class="podcast-apps__item --wide">
+          <svg class="podcast-apps__logo" viewBox="0 0 125 18">
+            <use xlink:href="./images/svg-sprite.svg#logo-google-podcasts"/>
+          </svg>
+        </li>
+        <!-- Pocket Casts -->
+        <li class="podcast-apps__item --wide">
+          <svg class="podcast-apps__logo" viewBox="0 0 129 26">
+            <use xlink:href="./images/svg-sprite.svg#logo-pocket-casts"/>
+          </svg>
+        </li>
+      </ul>
+    </main>
+
+    <footer class="footer">
+      <!-- Attribution -->
+      <p class="attribution">
+        Challenge by
+        <a class="attribution__link" 
+          href="https://frontendmentor.io/" target="_blank">
+          Frontend Mentor</a>. Coded by
+        <a class="attribution__link" href="https://antoneladiana.github.io/">
+          Antonela Diana</a>.
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
